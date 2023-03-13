@@ -39,7 +39,7 @@ def index():
 
 @app.route("/accounts", methods=["POST"])
 def create_accounts():
-    """ 
+    """
     This endpoint will create an Account based the data in the body that is posted
     """
     app.logger.info("Request to create an Account")
